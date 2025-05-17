@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="emailid" value="pranayjaio25@gmail.com"></parameter>
+  <parameter name="password" value="pranay@11"></parameter>
+  <classes>
+  <class name="com.cjc.webshop.web.test.DemoWebShopTest"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

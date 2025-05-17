@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="username" value="manish11"></parameter>
+  <parameter name="password" value="manish@11"></parameter>
+  <classes>
+  <class name="com.cjc.mercury.web.test.MercuryTest"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

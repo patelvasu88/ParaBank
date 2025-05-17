@@ -34,6 +34,7 @@ public class ParaBankTest
 	{
 		Common.driver.get("https://parabank.parasoft.com/parabank/register.htm;jsessionid=F72737800ECA16BF0D6C413EE14DD957");
 		Common.driver.manage().window().maximize();
+		log.info("browser is maximized");
 	}
 	
 	@BeforeClass
